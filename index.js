@@ -15,7 +15,7 @@ function verificar(){
         if(res_genero[0].checked){
             if(idade >= 0 && idade <= 2){
                 img.setAttribute('src', 'circle-bebe-man.png')
-                resultado.innerHTML = `Detectamos um bebe de ${idade} anos.`
+                resultado.innerHTML = `Detectamos um bebe de ${idade}`
             }
         }else{
             
