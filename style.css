@@ -61,6 +61,18 @@ button {
     cursor: pointer;
 }
 
+#res {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 20px;   /* Espaçamento para separar o resultado do botão */
+}
+
+#res img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 footer a {
     text-decoration: none;
 }
